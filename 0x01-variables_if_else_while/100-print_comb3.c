@@ -7,14 +7,16 @@
  */
 int main(void)
 {
-	int n;
+	int n1, n2;
 
-	for (n = 1; n < 90; n++)
+	for (n1 = 1; n1 < 9; n1++)
 	{
-		putchar((n / 9) + '0');
-		putchar((n % 9) + '0');
-		if (n != 89)
+		for (n2 = n1 - 1; n2 < 10; n2--)
 		{
+			putchar((n1 / 10) + '0');
+			putchar((n2 % 10) + '0');
+			if (n1 == 0 && n2 == 9)
+				continue;
 			putchar(',');
 			putchar(' ');
 		}
