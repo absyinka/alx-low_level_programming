@@ -23,11 +23,11 @@ int main(void)
 	}
 	else if (length == 0)
 	{
-		printf("%s %d is %d and is 0\n", txt, n, length);
+		printf("%s %d is %d and is 0\n", text, n, length);
 	}
 	else if (length < 6)
 	{
-		printf("%s %d is %d and is less than 6 and not 0\n", txt, n, length);
+		printf("%s %d is %d and is less than 6 and not 0\n", text, n, length);
 	}
 
 	return (0);
