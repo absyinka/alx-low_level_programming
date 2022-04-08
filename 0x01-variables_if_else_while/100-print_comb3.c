@@ -11,9 +11,9 @@ int main(void)
 
 	for (n = 0; n < 100; n++)
 	{
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d != 99)
+		putchar((n / 10) + '0');
+		putchar((n % 10) + '0');
+		if (n != 99)
 		{
 			putchar(',');
 			putchar(' ');
