@@ -9,13 +9,15 @@ int main(void)
 {
 	int n1, n2;
 
-	for (n1 = 1; n1 < 9; n1++)
+	for (n1 = 0; n1 < 9; n1++)
 	{
-		for (n2 = n1 - 1; n2 < 10; n2--)
+		for (n2 = n1 + 1; n2 < 10; n2++)
 		{
-			putchar((n1 / 10) + '0');
+			purchar((n1 % 10) + '0');
 			putchar((n2 % 10) + '0');
-			if (n1 == 0 && n2 == 9)
+		
+		
+			if (n1 == 8 && n2 == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
