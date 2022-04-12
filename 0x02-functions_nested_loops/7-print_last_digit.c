@@ -16,6 +16,6 @@ int print_last_digit(int nld)
 	{
 		last_digit = (-1 * last_digit);
 	}
-	putchar(last_digit + '0');
+	_putchar(last_digit + '0');
 	return (last_digit);
 }
