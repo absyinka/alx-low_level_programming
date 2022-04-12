@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	char text[] = "_putchar";
-	int c;
+	char *text = "_putchar";
 
-	for (c = 0; c <= 9; c++)
+	while (*text)
 	{
-		_putchar(text[c]);
+		_putchar(*text);
+		text++;
 	}
-	_putchar('\n')'
+	_putchar('\n');
 
 	return (0);
 }
