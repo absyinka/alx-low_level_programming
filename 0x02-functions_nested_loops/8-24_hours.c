@@ -1,5 +1,4 @@
 #include "main.h"
-#include<stdio.h>
 
 /**
  * jack_bauer - display all the time of Jack in 24hours
