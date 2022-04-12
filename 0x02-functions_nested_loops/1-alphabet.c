@@ -9,16 +9,16 @@
 int main(void)
 {
 	print_alphabet();
-	
-	return (0);	
+
+	return (0);
 }
 
 /**
  * print_alphabet - Print list of lowercase alphabet a-z
  *
- * Return: null
+ * Return: void
  */
-void print_alphabet()
+void print_alphabet(void)
 {
 	int alpha;
 
