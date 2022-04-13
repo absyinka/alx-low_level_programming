@@ -8,7 +8,7 @@
  */
 void print_times_table(int n)
 {
-	int num, num1;
+	int r, num, num1;
 
 	for (num = 0; num <= n; num++)
 	{
@@ -16,20 +16,28 @@ void print_times_table(int n)
 		{
 			break;
 		}
-		printf("0");
-		printf(",  ");
+		_putchar('0');
+		_putchar(',');
+		_putchar(' ');
 		for (num1 = 1; num1 <= n; num1++)
 		{
-			int r;
-
 			r = (num * num1);
-			printf("%d", r);
+			if ((r / 10) > 0)
+			{
+				_putchar((r / 10) + '0');
+			}
+			else
+			{
+				_putchar(' ');
+			}
+			_putchar((r % 10) +  '0');
 			if (num1 < n)
 			{
-				printf(",  ");
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 
 }
