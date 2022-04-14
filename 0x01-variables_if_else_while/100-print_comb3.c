@@ -9,13 +9,10 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n < 90; n++)
+	for (n = 1; n < 90; n++)
 	{
-		for ()
-		{
-			putchar((n / 10) + '0');
-			putchar((n % 10) + '0');
-		}
+		putchar((n / 10) + '0');
+		putchar((n % 10) + '0');
 		if (n != 89)
 		{
 			putchar(',');
