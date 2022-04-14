@@ -14,17 +14,14 @@ int main(void)
 		if ((c % 3) == 0 && (c % 5) == 0)
 		{
 			printf("FizzBuzz ");
-			continue;
 		}
 		else if (c % 3 == 0)
 		{
 			printf("Fizz ");
-			continue;
 		}
 		else if (c % 5 == 0)
 		{
 			printf("Buzz ");
-			continue;
 		}
 		else
 		{
