@@ -11,7 +11,11 @@ int main(void)
 
 	for (c = 1; c <= 100; c++)
 	{
-		if ((c % 3) == 0 && (c % 5) == 0)
+		if (c == 100)
+		{
+			printf("Buzz");
+		}
+		else if ((c % 3) == 0 && (c % 5) == 0)
 		{
 			printf("FizzBuzz ");
 		}
