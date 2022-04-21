@@ -30,7 +30,7 @@ int main(void)
 		{
 			if (password[i] >= (33 + d1))
 			{
-				password[i] = d1;
+				password[i] -= d1;
 				break;
 			}
 		}
