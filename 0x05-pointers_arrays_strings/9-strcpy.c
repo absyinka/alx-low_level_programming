@@ -15,5 +15,6 @@ char *_strcpy(char *dest, const char *src)
 		dest[i] = src[i];
 		i++;
 	}
+	dest[i] = '\n';
 	return (dest);
 }
