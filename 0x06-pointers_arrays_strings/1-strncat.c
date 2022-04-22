@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
-  * _strcat - function to concatenate two strings
+  * _strncat - append string to the end of another string
   * @dest: destination value
   * @src: initial value
+  * @n: number of indexes
   * Return: @dest
   */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
@@ -16,7 +17,7 @@ char *_strcat(char *dest, char *src)
 		i++;
 	}
 	j = 0;
-	while (src[j] != '\0')
+	while (j < n && src[j] != '\0')
 	{
 		dest[i] = src[j];
 		i++;
