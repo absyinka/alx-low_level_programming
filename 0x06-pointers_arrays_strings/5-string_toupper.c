@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
   * string_toupper - change all characters in a string to uppercase
