@@ -1,1 +1,1 @@
-# C - Dynamic Libraries
+This directory contains dynamic library, scripts, etc
